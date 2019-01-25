@@ -5,55 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  
     <link href="https://fonts.googleapis.com/css?family=Chivo:900i|Exo:900|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
     <script src="main.js"></script>
 </head>
 <body>
     <!-- navbar -->
-    <nav>
-            <a href="index.html" id="sitename">Baneen</a>
-        <div id="searchbar">
-            <form>
-                <input id="search" type="search" placeholder="Search..">
-                <button id="search-button" type="submit" ><i class="fas fa-search"></i></button>
-            </form>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
-        <div id="links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-        </div>
-    </nav>
-    <!--main content -->
-    <main id="main">
-        <section id="aboutsection">
-            <h1 id="companytitle">Baneen</h1>
-            <div id="aboutdesc">
-                <h3>The Baneen Team</h3>  
-                <p>Jalan ....................... Indonesia</p>
-                <p>Phone: ***************</p>
-            </div>
-        </section>
-        <section id="social">
-            <h4> Follow us</h4>
-            <div id="medlinkdiv">
-                <a><i class="fab fa-facebook medlink"></i></a>
-                <a><i class="fab fa-twitter medlink"></i></a>
-            </div>
-           
-
-        </section>
-       
-
-
+      </nav>
+   
     </main>
     <!-- footer -->
     <footer>
-        <h4>Copyright <i class="far fa-copyright"></i> 2019</h4>
-        <p>Baneen</p>
-
+   
     </footer>
-    
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
