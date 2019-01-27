@@ -71,22 +71,41 @@
 
   <div class="container-fluid">
       <div class="row">
-          <div class="col-md-4 video-block"><img class="img-fluid" src="assets/img/rodjaceria.jpg"></div>
-          <div class="col-md-4 video-block"><img class="img-fluid" src="assets/img/rodjaceria.jpg"></div>
-          <div class="col-md-4 video-block"><img class="img-fluid" src="assets/img/rodjaceria.jpg"></div>
+          <div class="col-md-4 video-block" id="vid1"><img class="img-fluid" src="https://img.youtube.com/vi/1i6dW1yKY30/hqdefault.jpg"></div>
+          <div class="col-md-4 video-block" id="vid2"><img class="img-fluid" src="https://img.youtube.com/vi/8XjS2_Dm4Sc/hqdefault.jpg"></div>
+          <div class="col-md-4 video-block" id="vid3"><img class="img-fluid" src="https://img.youtube.com/vi/ywpHWx-l500/hqdefault.jpg"></div>
       </div>
       <div class="row">
-        <div class="col-md-4 video-block"><img class="img-fluid" src="assets/img/rodjaceria.jpg"></div>
-        <div class="col-md-4 video-block"><img class="img-fluid" src="assets/img/rodjaceria.jpg"></div>
-        <div class="col-md-4 video-block"><img class="img-fluid" src="assets/img/rodjaceria.jpg"></div>
+        <div class="col-md-4 video-block" id="vid4"><img class="img-fluid" src="https://img.youtube.com/vi/H03MXiIn-N4/hqdefault.jpg"></div>
+        <div class="col-md-4 video-block" id="vid5"><img class="img-fluid" src="https://img.youtube.com/vi/dA7NWgqhFEQ/hqdefault.jpg"></div>
+        <div class="col-md-4 video-block" id="vid6"><img class="img-fluid" src="https://img.youtube.com/vi/RYigSQDwWYU/hqdefault.jpg"></div>
     </div>
     <div class="row">
-        <div class="col-md-4 video-block"><img class="img-fluid" src="assets/img/rodjaceria.jpg"></div>
-        <div class="col-md-4 video-block"><img class="img-fluid" src="assets/img/rodjaceria.jpg"></div>
-        <div class="col-md-4 video-block"><img class="img-fluid" src="assets/img/rodjaceria.jpg"></div>
+        <div class="col-md-4 video-block" id="vid7"><img class="img-fluid" src="https://img.youtube.com/vi/DTNOOnRXR9c/hqdefault.jpg"></div>
+        <div class="col-md-4 video-block" id="vid8"><img class="img-fluid" src="https://img.youtube.com/vi/niuOpS8lEOo/hqdefault.jpg"></div>
+        <div class="col-md-4 video-block" id="vid9"><img class="img-fluid" src="https://img.youtube.com/vi/SiteXjYVGEQ/hqdefault.jpg"></div>
     </div>
   </div>
 
+  <!-- videoplayer modal -->
+
+<div class="modal fade" id="modalVidPlayer" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="videoTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                        <iframe id="vidPlayer" class="embed-responsive-item" src="" allowfullscreen></iframe>
+                </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     <script
